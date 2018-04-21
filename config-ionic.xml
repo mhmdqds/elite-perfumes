@@ -82,6 +82,9 @@
 	<!-- ./default -->
 	<plugin name="cordova-plugin-inappbrowser" />
 	<platform name="android">
+		<plugin name="cordova-plugin-velda-devicefeedback" />
+	</platform>
+	<platform name="android">
 		<!-- splash and icon for build using ionic/cordova -->
 		<icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
 		<icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
